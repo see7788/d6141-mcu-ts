@@ -1,0 +1,45 @@
+{
+  "name": "d6141-mcu-ts",
+  "description": "pnpm create vite d6141-client-react  --template react-ts",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.2.4",
+    "antd": "5.4.3",
+    "immer": "9.0.21",
+    "js-cookie": "3.0.1",
+    "lodash": "4.17.21",
+    "react": "18.2.0",
+    "react-dnd": "16.0.1",
+    "react-dom": "18.2.0",
+    "react-router-dom": "6.10.0",
+    "react-use": "17.4.0",
+    "zustand": "4.3.7"
+  },
+  "devDependencies": {
+    "@types/js-cookie": "3.0.3",
+    "@types/lodash": "4.14.194",
+    "@types/node": "18.15.11",
+    "@types/react": "18.0.37",
+    "@types/react-dom": "18.0.11",
+    "@types/w3c-web-serial": "^1.0.3",
+    "@vitejs/plugin-react": "3.1.0",
+    "cross-env": "^7.0.3",
+    "rollup-plugin-copy": "3.4.0",
+    "rollup-plugin-visualizer": "5.9.0",
+    "terser": "5.17.1",
+    "typescript": "4.9.5",
+    "visualizer": "^3.0.1",
+    "vite": "4.1.0",
+    "vite-plugin-compression": "0.5.1",
+    "vite-plugin-html-config": "^1.0.11",
+    "web-serial-polyfill": "^1.0.14"
+  }
+}
